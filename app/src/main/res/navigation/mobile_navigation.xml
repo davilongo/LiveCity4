@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tripfy.livecity2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_queVer"
+        android:name="com.tripfy.livecity2.ui.queVer.QueVerFragment"
+        android:label="@string/menu_queVer"
+        tools:layout="@layout/fragment_que_ver" />
+
+
+    <fragment
+        android:id="@+id/nav_bares"
+        android:name="com.tripfy.livecity2.ui.bares.BaresFragment"
+        android:label="@string/menu_bares"
+        tools:layout="@layout/fragment_bares" />
+
+    <fragment
+        android:id="@+id/nav_dondeDormir"
+        android:name="com.tripfy.livecity2.ui.dondeDormir.DondeDormirFragment"
+        android:label="@string/menu_dondeDormir"
+        tools:layout="@layout/fragment_donde_dormir" />
+
+
+    <fragment
+        android:id="@+id/nav_miPerfil"
+        android:name="com.tripfy.livecity2.ui.perfil.PerfilUsuarioFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil_usuario" />
+</navigation>

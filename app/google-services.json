@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "206364615827",
+    "project_id": "livecity-c3159",
+    "storage_bucket": "livecity-c3159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206364615827:android:b494bdbf36b061a0251966",
+        "android_client_info": {
+          "package_name": "com.tripfy.livecity2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206364615827-cspvi5udfgnum07uf1oqs750lim2hljg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfy.livecity2",
+            "certificate_hash": "bdc2d6b9f54b0d76e4c60443f31f324efca9c737"
+          }
+        },
+        {
+          "client_id": "206364615827-ii9orpf0hhp7vkotdi34va3d581r5rt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATXkL0jeck553p28TXt82gVQaydic0S-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206364615827-ii9orpf0hhp7vkotdi34va3d581r5rt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

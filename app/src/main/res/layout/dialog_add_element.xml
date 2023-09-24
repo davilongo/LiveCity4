@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/queDeseaHacer"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnEditarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editarInfo"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agregarBar"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnLugarTuristico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agregarMonumento"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
